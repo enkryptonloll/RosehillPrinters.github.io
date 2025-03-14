@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rosehill Printers</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            padding: 20px;
+            font-size: 24px;
+        }
+        nav {
+            background-color: #222;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        section {
+            padding: 50px;
+        }
+        footer {
+            background-color: #222;
+            padding: 20px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>Rosehill Printers</header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="home">
+        <h1>Welcome to Rosehill Printers</h1>
+        <p>Your trusted printing partner.</p>
+    </section>
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>High-quality printing solutions for businesses and individuals.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@rosehillprinters.com</p>
+        <p>Phone: (123) 456-7890</p>
+    </section>
+    <footer>
+        &copy; 2025 Rosehill Printers. All rights reserved.
+    </footer>
+</body>
+</html>
